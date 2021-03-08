@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/marvel-wiki/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/marvel-wiki/static/js/main.9d4286cf.chunk.js",
+    "main.js.map": "/marvel-wiki/static/js/main.9d4286cf.chunk.js.map",
+    "runtime-main.js": "/marvel-wiki/static/js/runtime-main.bdac822a.js",
+    "runtime-main.js.map": "/marvel-wiki/static/js/runtime-main.bdac822a.js.map",
+    "static/js/2.bb0fe6b7.chunk.js": "/marvel-wiki/static/js/2.bb0fe6b7.chunk.js",
+    "static/js/2.bb0fe6b7.chunk.js.map": "/marvel-wiki/static/js/2.bb0fe6b7.chunk.js.map",
+    "static/js/3.caea74fc.chunk.js": "/marvel-wiki/static/js/3.caea74fc.chunk.js",
+    "static/js/3.caea74fc.chunk.js.map": "/marvel-wiki/static/js/3.caea74fc.chunk.js.map",
+    "index.html": "/marvel-wiki/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/marvel-wiki/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.bb0fe6b7.chunk.js.LICENSE.txt": "/marvel-wiki/static/js/2.bb0fe6b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdac822a.js",
+    "static/js/2.bb0fe6b7.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.9d4286cf.chunk.js"
+  ]
+}
