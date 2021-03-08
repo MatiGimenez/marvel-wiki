@@ -5,7 +5,7 @@ const CharacterCard = ({name, thumbnail}) => {
   return (
     <>
       <div>
-        <img alt="" src={`${thumbnail.path}.${thumbnail.extension}`} />
+        <img width={200} height={300} alt="" src={`${thumbnail.path}.${thumbnail.extension}`} />
       </div>
       <h3>{name}</h3>
     </>
