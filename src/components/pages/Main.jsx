@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import styled from 'styled-components';
-import axios from 'axios'
 
 const StyledMain = styled.div`
   display: grid;
@@ -8,16 +7,6 @@ const StyledMain = styled.div`
 `;
 
 const Main = () => {
-
-  /* const [characters, setCharacters] = useState([])
-  
-  useEffect(() => {
-    let mounted = true;
-    axios.get('')
-
-    return () => mounted = false;
-  }, []) */
-
   return (
     <StyledMain>
       <div>HOLA</div>
