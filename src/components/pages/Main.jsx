@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components';
-import axios from 'axios'
+import axios from 'axios';
+import { API_KEY, HASH, DATE } from '../../config'
 
 const StyledMain = styled.div`
   display: grid;
@@ -9,14 +10,19 @@ const StyledMain = styled.div`
 
 const Main = () => {
 
-  /* const [characters, setCharacters] = useState([])
+  const [characters, setCharacters] = useState([])
   
   useEffect(() => {
     let mounted = true;
-    axios.get('')
+    
+    axios.get(`https://gateway.marvel.com:443/v1/public/characters?ts=${DATE}&apikey=${API_KEY}&hash=${HASH}`)
+      .then(response => {
+        if (mounted) {
+          console.log(response)
+        }});
 
     return () => mounted = false;
-  }, []) */
+  }, [])
 
   return (
     <StyledMain>
