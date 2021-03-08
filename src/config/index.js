@@ -4,7 +4,7 @@ let date = new Date();
 const DATE = date.getTime();
 
 const API_KEY = "801ba33176620102b5413c542a89c925";
-const PRIVATE_KEY = process.env.SECRET_KEY;
+const PRIVATE_KEY = process.env.REACT_APP_SECRET_KEY;
 console.log(process.env);
 console.log(PRIVATE_KEY);
 const HASH = crypto
