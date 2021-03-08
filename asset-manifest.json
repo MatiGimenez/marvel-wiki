@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/matigimenez.github.io/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/matigimenez.github.io/static/js/main.2a111784.chunk.js",
-    "main.js.map": "/matigimenez.github.io/static/js/main.2a111784.chunk.js.map",
+    "main.js": "/matigimenez.github.io/static/js/main.f937c401.chunk.js",
+    "main.js.map": "/matigimenez.github.io/static/js/main.f937c401.chunk.js.map",
     "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.665eeea8.js",
     "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.665eeea8.js.map",
     "static/js/2.ea052c4d.chunk.js": "/matigimenez.github.io/static/js/2.ea052c4d.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.665eeea8.js",
     "static/js/2.ea052c4d.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.2a111784.chunk.js"
+    "static/js/main.f937c401.chunk.js"
   ]
 }
