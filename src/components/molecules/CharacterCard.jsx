@@ -1,8 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
+import './CharacterCard.css'
 
-const CharacterCard = styled((props) => {
-
+const CharacterCard = (props) => {
   return (
     <div className="CharacterCard">
       <div>
@@ -11,13 +10,6 @@ const CharacterCard = styled((props) => {
       <h3>{props.name}</h3>
     </div>
   )
-})`
-  .CharacterCard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px none black;
-  }
-`
+}
 
 export default CharacterCard
