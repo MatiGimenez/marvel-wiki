@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/matigimenez.github.io/static/css/main.c5eaed50.chunk.css",
-    "main.js": "/matigimenez.github.io/static/js/main.0ec7d15b.chunk.js",
-    "main.js.map": "/matigimenez.github.io/static/js/main.0ec7d15b.chunk.js.map",
+    "main.css": "/matigimenez.github.io/static/css/main.e5b08d01.chunk.css",
+    "main.js": "/matigimenez.github.io/static/js/main.a6f03d6f.chunk.js",
+    "main.js.map": "/matigimenez.github.io/static/js/main.a6f03d6f.chunk.js.map",
     "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.4f2d2d2f.js",
     "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.4f2d2d2f.js.map",
     "static/js/2.699b7fd1.chunk.js": "/matigimenez.github.io/static/js/2.699b7fd1.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.8e7aa42e.chunk.js": "/matigimenez.github.io/static/js/3.8e7aa42e.chunk.js",
     "static/js/3.8e7aa42e.chunk.js.map": "/matigimenez.github.io/static/js/3.8e7aa42e.chunk.js.map",
     "index.html": "/matigimenez.github.io/index.html",
-    "static/css/main.c5eaed50.chunk.css.map": "/matigimenez.github.io/static/css/main.c5eaed50.chunk.css.map",
+    "static/css/main.e5b08d01.chunk.css.map": "/matigimenez.github.io/static/css/main.e5b08d01.chunk.css.map",
     "static/js/2.699b7fd1.chunk.js.LICENSE.txt": "/matigimenez.github.io/static/js/2.699b7fd1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f2d2d2f.js",
     "static/js/2.699b7fd1.chunk.js",
-    "static/css/main.c5eaed50.chunk.css",
-    "static/js/main.0ec7d15b.chunk.js"
+    "static/css/main.e5b08d01.chunk.css",
+    "static/js/main.a6f03d6f.chunk.js"
   ]
 }
