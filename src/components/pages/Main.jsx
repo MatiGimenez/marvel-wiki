@@ -6,7 +6,8 @@ import CharacterCard from '../molecules/CharacterCard';
 
 const StyledMain = styled.div`
   display: grid;
-  grid-template: '1fr 1fr 1fr'
+  grid-template: '1fr 1fr 1fr';
+  row-gap: 10px;
 `;
 
 const Main = () => {
