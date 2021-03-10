@@ -1,15 +1,21 @@
 import React from 'react'
+import styled from 'styled-components'
 
-const CharacterCard = ({name, thumbnail}) => {
+const CharacterCard = styled((props) => {
 
   return (
-    <div>
+    <div className="CharacterCard">
       <div>
-        <img width={300} height={300} alt="" src={`${thumbnail.path.replace('http', 'https')}.${thumbnail.extension}`} />
+        <img width={300} height={300} alt="" src={`${props.thumbnail.path.replace('http', 'https')}.${props.thumbnail.extension}`} />
       </div>
-      <h3>{name}</h3>
+      <h3>{props.name}</h3>
     </div>
   )
-}
+})`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px none black;
+`
 
 export default CharacterCard
