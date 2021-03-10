@@ -6,8 +6,8 @@ const CharacterCard = (props) => {
     <div className="character-card">
       <div className="character-card-content">
         <img width={300} height={300} alt="" src={`${props.thumbnail.path.replace('http', 'https')}.${props.thumbnail.extension}`} />
+        <h3 className="character-card-content-title">{props.name}</h3>
       </div>
-      <h3 className="character-card-content-title">{props.name}</h3>
     </div>
   )
 }
