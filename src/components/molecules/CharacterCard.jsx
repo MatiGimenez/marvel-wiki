@@ -12,10 +12,12 @@ const CharacterCard = styled((props) => {
     </div>
   )
 })`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px none black;
+  .CharacterCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px none black;
+  }
 `
 
 export default CharacterCard
