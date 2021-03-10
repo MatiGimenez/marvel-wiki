@@ -3,11 +3,11 @@ import './CharacterCard.css'
 
 const CharacterCard = (props) => {
   return (
-    <div className="CharacterCard">
-      <div>
+    <div className="character-card">
+      <div className="character-card-content">
         <img width={300} height={300} alt="" src={`${props.thumbnail.path.replace('http', 'https')}.${props.thumbnail.extension}`} />
       </div>
-      <h3>{props.name}</h3>
+      <h3 className="character-card-content-title">{props.name}</h3>
     </div>
   )
 }
