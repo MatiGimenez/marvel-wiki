@@ -21,9 +21,14 @@ const Dashboard = () => {
   }, [])
 
   return (
+    <>
+    <div className="search-area">
+      CAMPO DE PRUEBA
+    </div>
     <div className="dashboard">
       {characters && characters.map(character => <CharacterCard key={character.id} name={character.name} thumbnail={character.thumbnail} />)}
     </div>
+    </>
   )
 }
 

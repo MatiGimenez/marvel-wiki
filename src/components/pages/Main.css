@@ -3,11 +3,12 @@
   width: 100%;
   margin: 0 auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 70px auto 100px;
+  grid-template-rows: 70px 200px auto 100px;
   grid-gap: 20px;
 
   grid-template-areas:
     "header header header"
+    "search search search"
     "main main main"
     "footer footer footer";
 }
