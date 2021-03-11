@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/matigimenez.github.io/static/css/main.c1f796d9.chunk.css",
-    "main.js": "/matigimenez.github.io/static/js/main.ac706972.chunk.js",
-    "main.js.map": "/matigimenez.github.io/static/js/main.ac706972.chunk.js.map",
-    "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.5944dcd3.js",
-    "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.5944dcd3.js.map",
-    "static/js/2.268065dd.chunk.js": "/matigimenez.github.io/static/js/2.268065dd.chunk.js",
-    "static/js/2.268065dd.chunk.js.map": "/matigimenez.github.io/static/js/2.268065dd.chunk.js.map",
-    "static/js/3.b1d2ffb3.chunk.js": "/matigimenez.github.io/static/js/3.b1d2ffb3.chunk.js",
-    "static/js/3.b1d2ffb3.chunk.js.map": "/matigimenez.github.io/static/js/3.b1d2ffb3.chunk.js.map",
+    "main.css": "/matigimenez.github.io/static/css/main.5a1d5050.chunk.css",
+    "main.js": "/matigimenez.github.io/static/js/main.81e89694.chunk.js",
+    "main.js.map": "/matigimenez.github.io/static/js/main.81e89694.chunk.js.map",
+    "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.f612ad6d.js",
+    "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.f612ad6d.js.map",
+    "static/js/2.cb7365e1.chunk.js": "/matigimenez.github.io/static/js/2.cb7365e1.chunk.js",
+    "static/js/2.cb7365e1.chunk.js.map": "/matigimenez.github.io/static/js/2.cb7365e1.chunk.js.map",
+    "static/js/3.6d9a44bd.chunk.js": "/matigimenez.github.io/static/js/3.6d9a44bd.chunk.js",
+    "static/js/3.6d9a44bd.chunk.js.map": "/matigimenez.github.io/static/js/3.6d9a44bd.chunk.js.map",
     "index.html": "/matigimenez.github.io/index.html",
-    "static/css/main.c1f796d9.chunk.css.map": "/matigimenez.github.io/static/css/main.c1f796d9.chunk.css.map",
-    "static/js/2.268065dd.chunk.js.LICENSE.txt": "/matigimenez.github.io/static/js/2.268065dd.chunk.js.LICENSE.txt"
+    "static/css/main.5a1d5050.chunk.css.map": "/matigimenez.github.io/static/css/main.5a1d5050.chunk.css.map",
+    "static/js/2.cb7365e1.chunk.js.LICENSE.txt": "/matigimenez.github.io/static/js/2.cb7365e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5944dcd3.js",
-    "static/js/2.268065dd.chunk.js",
-    "static/css/main.c1f796d9.chunk.css",
-    "static/js/main.ac706972.chunk.js"
+    "static/js/runtime-main.f612ad6d.js",
+    "static/js/2.cb7365e1.chunk.js",
+    "static/css/main.5a1d5050.chunk.css",
+    "static/js/main.81e89694.chunk.js"
   ]
 }
