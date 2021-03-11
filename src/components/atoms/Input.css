@@ -10,5 +10,6 @@
 
 .custom-input:focus {
   border-radius: 0px;
-  box-shadow: 0 0 0 10px red;
+  box-shadow: 0 0 0 4px red;
+  outline: none;
 }
