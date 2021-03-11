@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+.custom-input {
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  font-size: 28px;
+}
+
+.custom-input:focus {
+  border-radius: 0px;
+  box-shadow: 0 0 0 10px red;
+}

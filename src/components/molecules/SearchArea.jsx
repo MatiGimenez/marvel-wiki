@@ -6,7 +6,9 @@ const SearchArea = () => {
 
   return (
     <div className="search-area">
-      <Input type="text" name="search"/>
+      <div className="input-container">
+        <Input type="text" name="search"/>
+      </div>
     </div>
   )
 }
