@@ -1,0 +1,5 @@
+.search-area {
+  grid-area: search;
+
+  margin-top: -20px;
+}

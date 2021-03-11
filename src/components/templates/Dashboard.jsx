@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { API_KEY, HASH, DATE } from '../../config'
 import CharacterCard from '../molecules/CharacterCard'
+import SearchArea from '../molecules/SearchArea'
 import './Dashboard.css'
 
 const Dashboard = () => {
@@ -22,12 +23,10 @@ const Dashboard = () => {
 
   return (
     <>
-    <div className="search-area">
-      CAMPO DE PRUEBA
-    </div>
-    <div className="dashboard">
-      {characters && characters.map(character => <CharacterCard key={character.id} name={character.name} thumbnail={character.thumbnail} />)}
-    </div>
+      <SearchArea />
+      <div className="dashboard">
+        {characters && characters.map(character => <CharacterCard key={character.id} name={character.name} thumbnail={character.thumbnail} />)}
+      </div>
     </>
   )
 }
