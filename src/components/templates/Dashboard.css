@@ -1,3 +1,7 @@
 .dashboard {
   grid-area: main;
+
+  display: grid;
+  grid-template: repeat(3, 1fr);
+  row-gap: 10px;
 }
