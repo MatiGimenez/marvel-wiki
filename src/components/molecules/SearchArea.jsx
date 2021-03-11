@@ -1,11 +1,12 @@
 import React from 'react'
+import Input from '../atoms/Input'
 import './SearchArea.css'
 
 const SearchArea = () => {
 
   return (
     <div className="search-area">
-      <input type="text" name="search"/>
+      <Input type="text" name="search"/>
     </div>
   )
 }
