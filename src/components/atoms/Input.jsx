@@ -4,7 +4,10 @@ import './Input.css'
 const Input = (props) => {
 
   return (
-    <input className="custom-input" {...props}/>
+    <>
+      <i className="fas fa-search search-icon"></i>
+      <input className="custom-input" {...props}/>
+    </>
   )
 }
 

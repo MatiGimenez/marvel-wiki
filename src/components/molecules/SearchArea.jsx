@@ -7,7 +7,6 @@ const SearchArea = () => {
   return (
     <div className="search-area">
       <div className="input-container">
-        <i className="fas fa-search"></i>
         <Input type="text" name="search"/>
       </div>
     </div>
