@@ -12,3 +12,20 @@
     "main main main"
     "footer footer footer";
 }
+
+@media only screen and (min-width: 500px) {
+  .main-page {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 200px auto 100px;
+    grid-gap: 10px;
+
+    grid-template-areas:
+      "header"
+      "search"
+      "main"
+      "footer";
+  }
+}
