@@ -15,7 +15,7 @@
     "footer";
 }
 
-@media only screen and (max-width: var(--md)) {
+@media only screen and (max-width: 992px) {
   .main-page {
     display: grid;
     width: 100%;
