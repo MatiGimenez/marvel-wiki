@@ -2,15 +2,15 @@
   display: grid;
   width: 100%;
   margin: 0 auto;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   grid-template-rows: 70px 200px auto 100px;
-  grid-gap: 20px;
+  grid-gap: 10px;
 
   grid-template-areas:
-    "header header header"
-    "search search search"
-    "main main main"
-    "footer footer footer";
+    "header"
+    "search"
+    "main"
+    "footer";
 }
 
 @media only screen and (min-width: 500px) {
@@ -18,14 +18,14 @@
     display: grid;
     width: 100%;
     margin: 0 auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 70px 200px auto 100px;
-    grid-gap: 10px;
+    grid-gap: 20px;
 
     grid-template-areas:
-      "header"
-      "search"
-      "main"
-      "footer";
+      "header header header"
+      "search search search"
+      "main main main"
+      "footer footer footer";
   }
 }
