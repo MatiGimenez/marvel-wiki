@@ -3,7 +3,7 @@ import axios from 'axios'
 import { API_KEY, HASH, DATE } from '../../config'
 import CharacterCard from '../molecules/CharacterCard'
 import SearchArea from '../molecules/SearchArea'
-import './Dashboard.css'
+import './Dashboard.scss'
 
 const Dashboard = () => {
   const [characters, setCharacters] = useState([])

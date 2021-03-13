@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../organisms/Header'
 import Dashboard from '../templates/Dashboard'
-import './Main.css'
+import './Main.scss'
 
 const Main = () => {
 

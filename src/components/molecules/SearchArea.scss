@@ -1,3 +1,18 @@
+@function stroke($stroke, $color) {
+  $shadow: ();
+  $from: $stroke * -1;
+  @for $i from $from through $stroke {
+    @for $j from $from through $stroke {
+      $shadow: append($shadow, $i * 1px $j * 1px 0 $color, comma);
+    }
+  }
+  @return $shadow;
+}
+
+@mixin stroke($stroke, $color) {
+  text-shadow: stroke($stroke, $color);
+}
+
 .search-area {
   grid-area: search;
 
@@ -15,6 +30,10 @@
 .input-container {
   width: 50%;
   text-align: center;
+}
+
+.search-area-title {
+  @include stroke(10, #441c4c);
 }
 
 @media only screen and (max-width: 768px) {
