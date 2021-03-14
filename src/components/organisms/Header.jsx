@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Header.scss'
+import logo from '../../assets/images/marvel-wiki-logo.png'
 
 const Header = () => {
 
@@ -28,7 +29,7 @@ const Header = () => {
         <div>Boton 1</div>
         <div>Boton 2</div>
         <div>
-          <img alt="" src={require('../../assets/images/marvel-wiki-logo.png')} width={200} height={50}/>
+          <img alt="" src={logo} width={200} height={50}/>
         </div>
         <div>Boton 3</div>
         <div>Boton 4</div>
