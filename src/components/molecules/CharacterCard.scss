@@ -33,7 +33,7 @@
   }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (min-width: 460px) and (max-width: 530px) {
   .character-card-content {
     width: 175px;
   }
@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (min-width: 530px) and (max-width: 650px) {
   .character-card-content {
     width: 200px;
   }
@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 650px) and (max-width: 768px) {
   .character-card-content {
     width: 250px;
   }
