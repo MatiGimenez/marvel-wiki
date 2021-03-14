@@ -17,6 +17,35 @@
   transition: transform 250ms ease-out;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .character-card-content {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    position: relative;
+    background-color: #fb2a4b;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px;
+    transition: transform 250ms ease-out;
+    cursor: pointer;
+  }
+
+  .character-card-content-img {
+    width: 150px;
+    height: 150px;
+    border-bottom: 2px solid black;
+  }
+
+  .character-card-content-title {
+    align-self: center;
+    margin: 8px 0px;
+    font-size: 16px;
+  }
+}
+
 .character-card-content:hover {
   transform: translateY(-3px);
 }
