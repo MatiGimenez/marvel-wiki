@@ -5,7 +5,10 @@ const Header = () => {
 
   return (
     <div className="header">
-      THIS IS MY HEADER
+      <div>Boton 1</div>
+      <div>Boton 2</div>
+      <div>Boton 3</div>
+      <div>Boton 4</div>
     </div>
   )
 }
