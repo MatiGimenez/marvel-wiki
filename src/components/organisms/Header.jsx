@@ -16,20 +16,25 @@ const Header = () => {
     };
   }, []);
 
-  return (
-    <div className="header">
-      {
-        width < breakpoint ?
-          <i class="fas fa-bars"></i> 
-          : <>
-              <div>Boton 1</div>
-              <div>Boton 2</div>
-              <div>Boton 3</div>
-              <div>Boton 4</div>
-            </>
-      }
-    </div>
-  )
+  if (width < breakpoint) {
+    return (
+      <div className="contracted-header">
+        <i className="fas fa-bars"></i>
+      </div>
+    )
+  } else {
+    return (
+      <div className="expanded-header">
+        <div>Boton 1</div>
+        <div>Boton 2</div>
+        <div>
+          <img alt="" src="../../assets/images/marvel-wiki-logo.png" width={200} height={50}/>
+        </div>
+        <div>Boton 3</div>
+        <div>Boton 4</div>
+      </div>
+    )
+  }
 }
 
 export default Header
