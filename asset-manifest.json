@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/matigimenez.github.io/static/css/main.26f11deb.chunk.css",
-    "main.js": "/matigimenez.github.io/static/js/main.6fc9a512.chunk.js",
-    "main.js.map": "/matigimenez.github.io/static/js/main.6fc9a512.chunk.js.map",
-    "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.4f2d2d2f.js",
-    "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.4f2d2d2f.js.map",
-    "static/js/2.ba088aff.chunk.js": "/matigimenez.github.io/static/js/2.ba088aff.chunk.js",
-    "static/js/2.ba088aff.chunk.js.map": "/matigimenez.github.io/static/js/2.ba088aff.chunk.js.map",
-    "static/js/3.8e7aa42e.chunk.js": "/matigimenez.github.io/static/js/3.8e7aa42e.chunk.js",
-    "static/js/3.8e7aa42e.chunk.js.map": "/matigimenez.github.io/static/js/3.8e7aa42e.chunk.js.map",
+    "main.js": "/matigimenez.github.io/static/js/main.9def3b1e.chunk.js",
+    "main.js.map": "/matigimenez.github.io/static/js/main.9def3b1e.chunk.js.map",
+    "runtime-main.js": "/matigimenez.github.io/static/js/runtime-main.309e3655.js",
+    "runtime-main.js.map": "/matigimenez.github.io/static/js/runtime-main.309e3655.js.map",
+    "static/js/2.d91a2b3a.chunk.js": "/matigimenez.github.io/static/js/2.d91a2b3a.chunk.js",
+    "static/js/2.d91a2b3a.chunk.js.map": "/matigimenez.github.io/static/js/2.d91a2b3a.chunk.js.map",
+    "static/js/3.d46057e9.chunk.js": "/matigimenez.github.io/static/js/3.d46057e9.chunk.js",
+    "static/js/3.d46057e9.chunk.js.map": "/matigimenez.github.io/static/js/3.d46057e9.chunk.js.map",
     "index.html": "/matigimenez.github.io/index.html",
     "static/css/main.26f11deb.chunk.css.map": "/matigimenez.github.io/static/css/main.26f11deb.chunk.css.map",
-    "static/js/2.ba088aff.chunk.js.LICENSE.txt": "/matigimenez.github.io/static/js/2.ba088aff.chunk.js.LICENSE.txt",
-    "static/media/SearchArea.scss": "/matigimenez.github.io/static/media/Banner-Xavier.1e9cccda.jpg"
+    "static/js/2.d91a2b3a.chunk.js.LICENSE.txt": "/matigimenez.github.io/static/js/2.d91a2b3a.chunk.js.LICENSE.txt",
+    "static/media/SearchArea.scss": "/matigimenez.github.io/static/media/Banner-Xavier.1e9cccda.jpg",
+    "static/media/marvel-wiki-logo.png": "/matigimenez.github.io/static/media/marvel-wiki-logo.c4e812c8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f2d2d2f.js",
-    "static/js/2.ba088aff.chunk.js",
+    "static/js/runtime-main.309e3655.js",
+    "static/js/2.d91a2b3a.chunk.js",
     "static/css/main.26f11deb.chunk.css",
-    "static/js/main.6fc9a512.chunk.js"
+    "static/js/main.9def3b1e.chunk.js"
   ]
 }
