@@ -63,7 +63,7 @@
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 992px) {
+@media only screen and (min-width: 650px) and (max-width: 768px) {
   .character-card-content {
     width: 250px;
   }
@@ -71,6 +71,21 @@
   .character-card-content-img {
     width: 250px;
     height: 250px;
+  }
+
+  .character-card-content-title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1349px) {
+  .character-card-content {
+    width: 240px;
+  }
+
+  .character-card-content-img {
+    width: 240px;
+    height: 240px;
   }
 
   .character-card-content-title {
