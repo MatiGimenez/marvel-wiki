@@ -3,6 +3,7 @@ import axios from 'axios'
 import { API_KEY, HASH, DATE } from '../../config'
 import CharacterCard from '../molecules/CharacterCard'
 import SearchArea from '../molecules/SearchArea'
+import Paginator from '../molecules/Paginator'
 import './Dashboard.scss'
 
 const Dashboard = () => {
@@ -27,6 +28,7 @@ const Dashboard = () => {
       <div className="dashboard">
         {characters && characters.map(character => <CharacterCard key={character.id} name={character.name} thumbnail={character.thumbnail} />)}
       </div>
+      <Paginator />
     </>
   )
 }
