@@ -60,3 +60,19 @@
     background-position: center center;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .search-area {
+    grid-area: search;
+
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/images/Banner-Xavier-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #441c4c;
+    background-position: center center;
+  }
+}
