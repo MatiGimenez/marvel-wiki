@@ -1,4 +1,4 @@
-.header {
+.expanded-header {
   grid-area: header;
 
   background: black;
@@ -6,4 +6,29 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.contracted-header {
+  grid-area: header;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: header;
+  justify-items: center;
+  background: black;
+  color: white;
+  padding: 18px;
+}
+
+.menu-icon {
+  display: flex;
+  align-self: center;
+  justify-self: self-start;
+  font-size: 24px;
+}
+
+.logo-container {
+  display: flex;
+  background: white;
+  padding: 1px;
 }

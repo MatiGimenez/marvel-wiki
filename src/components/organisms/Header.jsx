@@ -20,7 +20,10 @@ const Header = () => {
   if (width < breakpoint) {
     return (
       <div className="contracted-header">
-        <i className="fas fa-bars"></i>
+        <i className="fas fa-bars menu-icon"></i>
+        <div className="logo-container">
+          <img alt="" src={logo} width={150} height={38}/>
+        </div>
       </div>
     )
   } else {
@@ -28,7 +31,7 @@ const Header = () => {
       <div className="expanded-header">
         <div>Boton 1</div>
         <div>Boton 2</div>
-        <div>
+        <div className="logo-container">
           <img alt="" src={logo} width={200} height={50}/>
         </div>
         <div>Boton 3</div>
