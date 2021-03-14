@@ -28,7 +28,7 @@ const Header = () => {
         <div>Boton 1</div>
         <div>Boton 2</div>
         <div>
-          <img alt="" src="../../assets/images/marvel-wiki-logo.png" width={200} height={50}/>
+          <img alt="" src={require('../../assets/images/marvel-wiki-logo.png')} width={200} height={50}/>
         </div>
         <div>Boton 3</div>
         <div>Boton 4</div>
