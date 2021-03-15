@@ -8,6 +8,21 @@
   margin-top: 20px;
   font-size: 18px;
   font-weight: 500;
+  padding: 0;
+}
+
+@media screen and (max-width: 460px) {
+  .paginator-container {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .paginator-container {
+    font-size: 10px;
+    font-weight: 500;
+  }
 }
 
 .page-buttons {
