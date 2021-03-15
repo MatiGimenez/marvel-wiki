@@ -3,8 +3,9 @@ import axios from "axios";
 import { API_KEY, HASH, DATE } from "../../config";
 import CharacterCard from "../molecules/CharacterCard";
 import SearchArea from "../molecules/SearchArea";
-import Paginator from "../molecules/Paginator";
+import ReactPaginate from "react-paginate";
 import "./Dashboard.scss";
+import "./Paginator.scss";
 
 const Dashboard = () => {
   const [characters, setCharacters] = useState([]);
@@ -40,7 +41,22 @@ const Dashboard = () => {
               />
             ))}
         </div>
-        <Paginator />
+        <ReactPaginate
+          previousLabel={"Anterior"}
+          nextLabel={"Siguiente"}
+          breakLabel={"..."}
+          breakClassName={"dots"}
+          pageCount={20}
+          marginPagesDisplayed={1}
+          pageRangeDisplayed={3}
+          onPageChange={(data) => console.log(data)}
+          containerClassName={"paginator-container"}
+          pageLinkClassName={"page-buttons"}
+          pageClassName={"li-page-buttons"}
+          activeClassName={"active"}
+          previousClassName={"li-page-buttons page-buttons prev"}
+          nextClassName={"li-page-buttons page-buttons next"}
+        />
       </div>
     </>
   );

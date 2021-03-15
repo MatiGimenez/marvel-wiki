@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.paginator-container {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.page-buttons {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #7d276b;
+  color: white;
+}
+
+.li-page-buttons {
+  margin: 0px 2px;
+}
+
+.prev {
+  border-radius: 25px 5px 5px 25px;
+}
+
+.prev a:focus {
+  outline: none;
+}
+
+.next {
+  border-radius: 5px 25px 25px 5px;
+}
+
+.next a:focus {
+  outline: none;
+}
+
+.dots {
+  border: 0;
+  background: none;
+  color: black;
+  cursor: default;
+  margin: 0px 2px;
+}
+
+.page-buttons:hover:not(.active a):not(.dots) {
+  background: #ea4ce6;
+  color: black;
+}
+
+.active {
+  a {
+    background: #b9249a;
+  }
+}
