@@ -16,12 +16,20 @@
     font-size: 14px;
     font-weight: 500;
   }
+
+  .page-buttons {
+    padding: 5px 8px !important;
+  }
 }
 
 @media screen and (max-width: 370px) {
   .paginator-container {
     font-size: 10px;
     font-weight: 500;
+  }
+
+  .page-buttons {
+    padding: 5px 8px !important;
   }
 }
 
